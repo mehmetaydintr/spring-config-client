@@ -16,7 +16,7 @@ class SpringConfigClient(metaclass=Singleton):
         app_name = client_config.get_app_name()
         profile = client_config.get_profile()
 
-        _request_url = f"{address}/{branch}/{app_name}-{profile}.json"
+        _request_url = f"{address}/{app_name}/{profile}"
         _request_headers = {"Authorization": client_config.get_authn_header()}
 
         logging.debug(f"Requesting: {_request_url}")
