@@ -13,16 +13,16 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",
-    url="https://realbucksavage.github.io/spring-config-client",
+    url="https://mehmetaydintr.github.io/spring-config-client",
     packages=setuptools.find_packages(),
     python_requires=">=3.6.0",
     project_urls=OrderedDict(
         (
-            ("Documentation", "https://github.com/realbucksavage/spring-config-client"),
-            ("Code", "https://github.com/realbucksavage/spring-config-client"),
+            ("Documentation", "https://github.com/mehmetaydintr/spring-config-client"),
+            ("Code", "https://github.com/mehmetaydintr/spring-config-client"),
             (
                 "Issue tracker",
-                "https://github.com/realbucksavage/spring-config-client/issues",
+                "https://github.com/mehmetaydintr/spring-config-client/issues",
             ),
         )
     ),
